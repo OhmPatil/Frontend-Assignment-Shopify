@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+  font-family: 'alpina';
+  src: url('assets/GTAlpina.woff2') format('.woff2'), url('assets/GTAlpina.woff') format('.woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+/* @font-face {
+  font-family: 'garamond';
+  src: url('ITCGaramond.woff2') format('.woff2'), url('GaramondCondensedRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+
+/* Tab group active tab style */
+.active-tab {
+  background-color: #3c422e;
+  color: #f6e6d9;
+}
+
+/* Tab group active content style */
+.active-content {
+  display: block !important;
+}
+
+.active-quant {
+  background-color: #9eef80;
+}
+
+.active-sub {
+  background-color: #9eef80;
+}
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+  will-change: transform;
+}
+.embla__slide {
+  position: relative;
+  flex: 0 0 auto;
+  width: 100%;
+}
